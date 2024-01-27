@@ -1,5 +1,5 @@
-# 파이널판타지14 아이템 게시판 - api toyproject
-
+# 파이널판타지14 아이템 게시판 - API Toy Project
+![image](https://github.com/TongtongG17/FFXIV-ItemSerch/assets/145681939/475255bb-32f0-412d-9b17-1ad40ba6cdd2)
 ## 제작기간: 2023.10.15 ~ 2023.11.15
 ## ⭐️ 프로젝트 설명
 프론트엔드 기본 업무는 백엔드의 API를 호출하여 데이터를 받아오거나 백엔드에 데이터를 보내는 통신을 수행을 합니다. 또한 받아온 데이터를 사용자에게 보여주기 위해 디자인 하거나 화면에 동적으로 표시를 해줍니다. 
@@ -24,3 +24,9 @@ express js로 api 요청을 처리 하였습니다.XIVAPI에서 받아온 응답
 api 엔드포인트에 get 요청을 보내 아이템을 검색 할 수 있는 함수를 만들었습니다. 아이템명 입력 이벤트 핸들러 함수를 정의하여 아이템 검색을 호출했습니다. 또한 각 직업군별 아이템을 볼 수 있도록 useCallback 을 이용한 필터링 함수를 정의했습니다.
 
 ## 👀 페이지 구성
+|파이널판타지14 게임속 장터게시판 ui|Styled-component로 제작한 아이템게시판|
+|------|---|
+|![image](https://github.com/TongtongG17/FFXIV-ItemSerch/assets/145681939/34089c61-b66f-4883-be44-eb9695e3cad2)|![image](https://github.com/TongtongG17/FFXIV-ItemSerch/assets/145681939/7b275294-71ee-45f0-87d8-8808b3593f19)|
+
+FFXIV-API는 한국어를 지원하지 않기 때문에, 아이템을 영문으로 검색할 수 있도록 기본 언어를 영어로 설정했습니다. 또한 선택한 직업의 아이템만 보이도록 필터링 작업을 했습니다.
+![분류](https://github.com/TongtongG17/FFXIV-ItemSerch/assets/145681939/a5fdd9c8-6878-48d8-9d6a-045da71bccd9)
