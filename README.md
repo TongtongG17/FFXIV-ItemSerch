@@ -1,6 +1,9 @@
 # 파이널판타지14 아이템 게시판 - API Toy Project
 ![image](https://github.com/TongtongG17/FFXIV-ItemSerch/assets/145681939/475255bb-32f0-412d-9b17-1ad40ba6cdd2)
 ## 제작기간: 2023.10.15 ~ 2023.11.15
+## 호스팅
+- client: [네트리파이](https://ffxiv-itemserch.netlify.app/)
+- server: express로 제작한 코드이기에 클라우드타입에 배포하고 있습니다.
 ## ⭐️ 프로젝트 설명
 프론트엔드 기본 업무는 백엔드의 API를 호출하여 데이터를 받아오거나 백엔드에 데이터를 보내는 통신을 수행을 합니다. 또한 받아온 데이터를 사용자에게 보여주기 위해 디자인 하거나 화면에 동적으로 표시를 해줍니다. 
 
